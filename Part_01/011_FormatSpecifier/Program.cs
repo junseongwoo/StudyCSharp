@@ -31,6 +31,17 @@ namespace _011_FormatSpecifier
             Console.WriteLine(s);
 
             Console.WriteLine(1234.5678.ToString("N2"));
+            Console.WriteLine(1234.ToString("D8"));
+            Console.WriteLine(1234.56.ToString("F3"));
+
+            Console.WriteLine("{0:#.##}", 1234.5678);
+            Console.WriteLine("{0:0,0.00}", 1234.5678);
+            Console.WriteLine("{0:#,#.##}", 12345.6789);
+            Console.WriteLine("{0:0000000.00}", 12345.6789);
+
+            Console.WriteLine("{0:#,#.##;(#,#.##);zero}", 1234.678);
+            Console.WriteLine("{0:#,#.##;(#,#.##);zero}", -1234.678);
+            Console.WriteLine("{0:#,#.##;(#,#.##);zero}", 0);
         }
     }
 }
