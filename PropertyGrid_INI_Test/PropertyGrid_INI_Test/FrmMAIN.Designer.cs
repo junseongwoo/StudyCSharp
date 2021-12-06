@@ -1,6 +1,6 @@
 ﻿namespace PropertyGrid_INI_Test
 {
-    partial class Form1
+    partial class FrmMAIN
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.Btn_pGridForm = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Btn_pGridForm
+            // 
+            this.Btn_pGridForm.Location = new System.Drawing.Point(12, 12);
+            this.Btn_pGridForm.Name = "Btn_pGridForm";
+            this.Btn_pGridForm.Size = new System.Drawing.Size(114, 51);
+            this.Btn_pGridForm.TabIndex = 0;
+            this.Btn_pGridForm.Text = "PropertyGrid";
+            this.Btn_pGridForm.UseVisualStyleBackColor = true;
+            this.Btn_pGridForm.Click += new System.EventHandler(this.Btn_pGridForm_Click);
+            // 
+            // FrmMAIN
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1026, 581);
+            this.Controls.Add(this.Btn_pGridForm);
+            this.Name = "FrmMAIN";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmMAIN_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Btn_pGridForm;
     }
 }
 
