@@ -47,8 +47,7 @@ namespace PropertyGrid_INI_Test
         private int _PortNum;
 
         public ConfigParam() { }
-
-
+        
         /*
          * private으로 선언한 변수들을 Property화 시켜 외부와의 통신을 위한 public 처리를 했다.
          * 각각의 Category별로 분류를 해야하기 위해 Attribute 기법을 쓴다.

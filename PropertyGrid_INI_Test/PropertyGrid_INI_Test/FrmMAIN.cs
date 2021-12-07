@@ -25,6 +25,7 @@ namespace PropertyGrid_INI_Test
 
         private void FrmMAIN_Load(object sender, EventArgs e)
         {
+
             frmpGridINI.TopLevel = false;
 
             this.Controls.Add(frmpGridINI);
