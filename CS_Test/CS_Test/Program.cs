@@ -16,7 +16,7 @@ namespace PropertyGrid_INI_Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMAIN());
+            Application.Run(new FrmMAIN()); 
         }
     }
 }
