@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(1026, 581);
             this.Controls.Add(this.Btn_pGridForm);
             this.Name = "FrmMAIN";
-            this.Text = "Form1";
+            this.Text = "MAIN";
             this.Load += new System.EventHandler(this.FrmMAIN_Load);
             this.ResumeLayout(false);
 

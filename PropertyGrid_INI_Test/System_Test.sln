@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyGrid_INI_Test", "PropertyGrid_INI_Test\PropertyGrid_INI_Test.csproj", "{2BAF90D0-6FD0-426B-AD7C-1A0FC067ACAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System_Test", "PropertyGrid_INI_Test\System_Test.csproj", "{2BAF90D0-6FD0-426B-AD7C-1A0FC067ACAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

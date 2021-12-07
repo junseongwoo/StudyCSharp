@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace PropertyGrid_INI_Test
 {
+
     public partial class FrmpGridINI : Form
     {
+        INI iniFile = new INI("D:\\Config.ini");
+        
         public FrmpGridINI()
         {
             InitializeComponent();
@@ -28,6 +31,35 @@ namespace PropertyGrid_INI_Test
             pGrid_Save.SelectedObject = configSave;
         }
 
+        private void Btn_Save_Click(object sender, EventArgs e)
+        {
+            SaveINI_File();
+        }
+
+        private void SaveINI_File()
+        {
+            object obj = pGrid_Save.SelectedObject;
+
+            ConfigParam Config_save = (ConfigParam)obj;
+
+            iniFile.SaveINIFile(Config_save);
+        }
+
+        private void Btn_Load_Click(object sender, EventArgs e)
+        {
+            LoadINI_File();
+        }
+
+        private void LoadINI_File()
+        {
+            object obj = pGrid_Load.SelectedObject;
+            ConfigParam Config_load = (ConfigParam)obj;
+
+            Config_load = iniFile.LoadINIFile();
+
+            pGrid_Load.SelectedObject = Config_load;
+        }
+        
     }
 
     /*

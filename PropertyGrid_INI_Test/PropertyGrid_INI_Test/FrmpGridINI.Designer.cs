@@ -49,6 +49,7 @@
             this.Btn_Save.TabIndex = 1;
             this.Btn_Save.Text = "Save";
             this.Btn_Save.UseVisualStyleBackColor = true;
+            this.Btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
             // 
             // Btn_Load
             // 
@@ -58,6 +59,7 @@
             this.Btn_Load.TabIndex = 2;
             this.Btn_Load.Text = "Load";
             this.Btn_Load.UseVisualStyleBackColor = true;
+            this.Btn_Load.Click += new System.EventHandler(this.Btn_Load_Click);
             // 
             // pGrid_Load
             // 
