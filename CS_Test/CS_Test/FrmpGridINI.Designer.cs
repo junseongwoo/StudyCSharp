@@ -1,4 +1,4 @@
-﻿namespace PropertyGrid_INI_Test
+﻿namespace CS_Test
 {
     partial class FrmpGridINI
     {

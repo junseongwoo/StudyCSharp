@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PropertyGrid_INI_Test
+namespace CS_Test
 {   
     class INI
     {

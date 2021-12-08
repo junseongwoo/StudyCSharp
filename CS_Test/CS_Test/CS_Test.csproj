@@ -52,6 +52,12 @@
     <Compile Include="FrmListViewText.Designer.cs">
       <DependentUpon>FrmListViewText.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLogTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogTest.Designer.cs">
+      <DependentUpon>FrmLogTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMAIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,12 @@
     <Compile Include="INI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmListViewText.resx">
+      <DependentUpon>FrmListViewText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogTest.resx">
+      <DependentUpon>FrmLogTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMAIN.resx">
       <DependentUpon>FrmMAIN.cs</DependentUpon>
     </EmbeddedResource>

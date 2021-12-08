@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PropertyGrid_INI_Test
+namespace CS_Test
 {
     static class Program
     {
