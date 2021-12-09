@@ -75,7 +75,7 @@ namespace _069_Property
             Rectangle r = new Rectangle();
             r.Setheight(10.0);
             r.SetWidth(10.0);
-            
+            Console.WriteLine("r의 면적은 {0}", r.GetWidth() * r.GetHeight());
         }
     }
 }
