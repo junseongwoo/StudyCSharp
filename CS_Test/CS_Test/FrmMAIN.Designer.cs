@@ -31,6 +31,7 @@
             this.Btn_pGridForm = new System.Windows.Forms.Button();
             this.Btn_lstViewFrm = new System.Windows.Forms.Button();
             this.Btn_LogTest = new System.Windows.Forms.Button();
+            this.Btn_Delegate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_pGridForm
@@ -45,7 +46,7 @@
             // 
             // Btn_lstViewFrm
             // 
-            this.Btn_lstViewFrm.Location = new System.Drawing.Point(158, 12);
+            this.Btn_lstViewFrm.Location = new System.Drawing.Point(162, 12);
             this.Btn_lstViewFrm.Name = "Btn_lstViewFrm";
             this.Btn_lstViewFrm.Size = new System.Drawing.Size(114, 51);
             this.Btn_lstViewFrm.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // Btn_LogTest
             // 
-            this.Btn_LogTest.Location = new System.Drawing.Point(300, 12);
+            this.Btn_LogTest.Location = new System.Drawing.Point(402, 12);
             this.Btn_LogTest.Name = "Btn_LogTest";
             this.Btn_LogTest.Size = new System.Drawing.Size(114, 51);
             this.Btn_LogTest.TabIndex = 2;
@@ -63,11 +64,22 @@
             this.Btn_LogTest.UseVisualStyleBackColor = true;
             this.Btn_LogTest.Click += new System.EventHandler(this.Btn_LogTest_Click);
             // 
+            // Btn_Delegate
+            // 
+            this.Btn_Delegate.Location = new System.Drawing.Point(282, 12);
+            this.Btn_Delegate.Name = "Btn_Delegate";
+            this.Btn_Delegate.Size = new System.Drawing.Size(114, 51);
+            this.Btn_Delegate.TabIndex = 3;
+            this.Btn_Delegate.Text = "Delegate Test";
+            this.Btn_Delegate.UseVisualStyleBackColor = true;
+            this.Btn_Delegate.Click += new System.EventHandler(this.Btn_Delegate_Click);
+            // 
             // FrmMAIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 581);
+            this.Controls.Add(this.Btn_Delegate);
             this.Controls.Add(this.Btn_LogTest);
             this.Controls.Add(this.Btn_lstViewFrm);
             this.Controls.Add(this.Btn_pGridForm);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Button Btn_pGridForm;
         private System.Windows.Forms.Button Btn_lstViewFrm;
         private System.Windows.Forms.Button Btn_LogTest;
+        private System.Windows.Forms.Button Btn_Delegate;
     }
 }
 

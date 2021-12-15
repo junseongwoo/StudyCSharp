@@ -29,9 +29,12 @@ namespace CS_Test
 
         public void UpdateLstLog()
         {
-            lst_Log.View = View.Details;
-
             lst_Log.BeginUpdate();
+
+            //ch_Date.Width = lst_Log.Width / 5;
+            //ch_Judge.Width = lst_Log.Width / 6;
+            //ch_Log.Width = lst_Log.Width - (lst_Log.Width / 5 + lst_Log.Width / 6);
+
             lst_Log.Columns.Add("Date", lst_Log.Width / 5);
             lst_Log.Columns.Add("Judge", lst_Log.Width / 6, HorizontalAlignment.Center);
             lst_Log.Columns.Add("Log", lst_Log.Width - (lst_Log.Width / 5 + lst_Log.Width/6));
@@ -51,9 +54,22 @@ namespace CS_Test
 
         public void SetLog(string judge, string caption)
         {
+            lst_Log.BeginUpdate();
             
+            {
+                string curTime = DateTime.Now.ToString("yyyy-mm-dd HH:mm:ss");
+
+                ListViewItem item = new ListViewItem(curTime);
+                item.SubItems.Add(judge);
+                item.SubItems.Add(caption);
+
+                lst_Log.Items.Add(item);
+            }
+
+            lst_Log.EndUpdate();
+
         }
 
-     
+
     }
 }

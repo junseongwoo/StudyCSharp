@@ -87,6 +87,7 @@
             this.lst_Log.HideSelection = false;
             this.lst_Log.Location = new System.Drawing.Point(435, 101);
             this.lst_Log.Name = "lst_Log";
+            this.lst_Log.Scrollable = false;
             this.lst_Log.Size = new System.Drawing.Size(341, 337);
             this.lst_Log.TabIndex = 5;
             this.lst_Log.UseCompatibleStateImageBehavior = false;

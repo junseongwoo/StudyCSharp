@@ -32,7 +32,8 @@ namespace CS_Test
 
         private void Btn_Save_Click(object sender, EventArgs e)
         {
-            frmListViewTXT.SetLog(Cbo_Judge.SelectedItem.ToString(), Tbo_Log.Text.ToString());
+            //frmListViewTXT.SetLog(Cbo_Judge.SelectedItem.ToString(), Tbo_Log.Text.ToString());
+            frmListViewTXT.SetLog("dddd", "eeee");
         }
 
        

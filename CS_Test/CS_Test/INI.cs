@@ -39,7 +39,8 @@ namespace CS_Test
         
         public void SaveINIFile(ConfigParam configdata)
         {
-            WriteValue("Test", "Test1", Convert.ToString(configdata.Addr), this.inipath);
+            WritePrivateProfileString("Test", "Test1", Convert.ToString(configdata.Addr), this.inipath);
+            //WriteValue("Test", "Test1", Convert.ToString(configdata.Addr), this.inipath);
             WriteValue("Test", "Test2", Convert.ToString(configdata.PortNum), this.inipath);
         }
 

@@ -68,5 +68,10 @@ namespace CS_Test
             frmLstViewTXT.Hide();
             frmLogTest.Show();
         }
+
+        private void Btn_Delegate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
