@@ -27,6 +27,25 @@ namespace _097_UsingLinkedList
             list.InsertFront(10);
             list.InsertLast(90);
             list.Print();
+
+            Console.WriteLine("\nx 노드 뒤에 y 값을 저장하려고 합니다.");
+            Console.Write(" x값을 입력하세요: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write(" y값을 입력하세요: ");
+            int y = int.Parse(Console.ReadLine());
+
+            list.InsertAfter(x, y);
+            list.Print();
+
+            Console.Write("\n삭제할 노드의 값을 입력하세요: ");
+            int z = int.Parse(Console.ReadLine());
+            list.DeleteNode(z);
+            list.Print();
+
+            Console.WriteLine("\n리스트를 뒤집어 출력. <Enter> 입력하세요");
+            Console.ReadLine();
+            list.Reverse();
+            list.Print();
         }
     }
 }
